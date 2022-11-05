@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<User id="7">
+    <lastname>Lupa</lastname>
+    <firstname>Vova</firstname>
+    <surname>Vladimirovich</surname>
+    <date_of_birth>11.12.2000</date_of_birth>
+    <passport_series>HB</passport_series>
+    <passport_number>456456</passport_number>
+    <employed>true</employed>
+    <position>HR</position>
+    <registration_addres>Minsk</registration_addres>
+    <citizenship>Belarus</citizenship>
+</User>

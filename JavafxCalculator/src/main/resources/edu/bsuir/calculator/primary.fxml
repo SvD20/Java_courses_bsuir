@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsuir.calculator.Controller">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="165.0" layoutY="31.0" prefHeight="50.0" prefWidth="407.0" text="Simple calculator">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="field_for_first_number" layoutX="35.0" layoutY="124.0" prefHeight="46.0" prefWidth="100.0" />
+            <TextField fx:id="field_for_second_number" layoutX="37.0" layoutY="232.0" prefHeight="51.0" prefWidth="104.0" />
+            <TextArea fx:id="area_for_result" layoutX="189.0" layoutY="328.0" prefHeight="56.0" prefWidth="229.0" />
+            <Label layoutX="35.0" layoutY="94.0" text=" First operand">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="200.0" text="Second operand">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="272.0" layoutY="297.0" text="Result">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="plus_button" layoutX="390.0" layoutY="91.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" text="addition">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="umnozhit_button" layoutX="393.0" layoutY="173.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="158.0" text="multiplication">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="delit_button" layoutX="395.0" layoutY="207.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="134.0" text="division">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="minus_button" layoutX="393.0" layoutY="129.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="136.0" text="subtraction">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="calculate_button" layoutX="197.0" layoutY="170.0" mnemonicParsing="false" text="Calculate">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="sqrt_button" layoutX="395.0" layoutY="250.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="sqrt">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
